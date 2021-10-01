@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    android:background="#FBF5F7"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idnametextview"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Full Name"
+        android:textColor="#0B0A0A"
+        android:textColorHint="#0720A6">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idagetextview"
+        android:inputType="number"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Age"
+        android:textColor="#0B0A0A"
+        android:textColorHint="#0720A6">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idphonenumbertextview"
+        android:inputType="phone"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Phone Number"
+        android:textColor="#0B0A0A"
+        android:textColorHint="#0720A6">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idsubmitbutton"
+        android:layout_margin="25dp"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="Submit"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idshowdata"
+        android:layout_margin="25dp"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="Show data"
+        >
+    </Button>
+
+
+</LinearLayout>
